@@ -1,0 +1,16 @@
+[package]
+name = "intern"
+version = "0.2.0"
+authors = ["Felix Köpge <fkoep@mailbox.org>"]
+license = "MIT"
+
+description = "Library for interning strings and other kinds of data. (WIP)"
+documentation = "https://docs.rs/intern"
+repository = "https://github.com/fkoep/intern-rs"
+# TODO readme = "README.md"
+keywords = ["string"]
+categories = ["rust-patterns"]
+
+[dependencies]
+lazy_static = "0.2"
+nodrop = "0.1"
